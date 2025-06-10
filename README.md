@@ -1,5 +1,4 @@
-# SQLRMed
-Description
+## Description
 Curious about SQL but not ready to dive into full-blown databases or external connections? This hands-on, beginner-friendly workshop is the perfect starting point. Using the lightweight and intuitive {sqldf} package in R, you’ll learn how to write SQL queries directly on your existing R data frames—no database setup required.
 
 SQL (Structured Query Language) is a powerful tool for querying and transforming structured data, and it’s widely used in clinical research, data science, and industry analytics. In this 3-hour introductory session, we’ll bridge the gap between R and SQL in the most approachable way possible—by working with the data frames you already use in R.
