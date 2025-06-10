@@ -23,52 +23,6 @@ This workshop is especially helpful for analysts, students, and researchers who 
 
 Come explore the power of SQL in a simple, approachable way—and learn to make your data talk.
 
----
-title: "First Steps with SQL in R: Making Data Talk"
-subtitle: "Or, How to have your data tell a story"
-author:
-  - name: "Chris Battiston, chris.battiston@wchospital.ca"
-    affiliation:
-      - "Women's College Hospital, Toronto, Canada"
-date: last-modified
-date-format: "MMMM D, YYYY"
-format:
-  revealjs:
-    theme: 
-      - default
-      - slides.scss
-    title-slide-attributes:
-      data-background-image: "img/rmed_background.png"
-      data-background-size: cover
-      data-background-opacity: "50"
-    fontsize: 2em
-    html-math-method: mathjax
-    slide-number: c/t
-    show-slide-number: all
-    highlight-style: rstudio_default-light.theme
-    logo: "img/rmed.png"
-    footer: "[Slides are here](https://){target='_blank'}"  # complete the URL
-    include-after-body: "img/clean_title_page.html"
-include-in-header:
-  text: |
-    <link rel="shortcut icon" href="img/rmed.ico"/>
-embed-resources: true
-knitr:
-  opts_chunk:      ########## set global options ############
-    collapse: true # keep code from blocks together (if shown)
-    echo: false    # don't show code
-    message: false  # show messages
-    warning: false  # show warnings
-    error: false    # show error messages
-    comment: ""    # don't show ## with printed output
-    R.options:   
-      digits: 3    # round to three digits
-editor_options:
-  chunk_output_type: console
-editor: source
-highlight-style: rstudio_default-light.theme
----
-
 ## 🧑‍🏫 Who am I?
 
 -   Background in clinical data systems (e.g., REDCap)
